@@ -103,7 +103,7 @@ Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la en
 | Lección 4: Opciones de soporte técnico de Azure      |**15**| **20** |**35**|**0,58**|
 | Lección 5: Acuerdos de nivel de servicio Azure (SLA)      |**20**| **20**  |**40**|**0,67**|
 | Lección 6: Ciclo de vida del servicio en Azure     |**25**|  **20** |**45**|**0,75**|
-|        **Módulo 4: Totales**      |**115*| **100**  |**225**|**3,75**|
+|        **Módulo 4: Totales**      |**115**| **100**  |**225**|**3,75**|
 | |
 | | **Minutos**|**Horas**|
 | **Tiempo total de lectura del curso** |475 |7,92|
