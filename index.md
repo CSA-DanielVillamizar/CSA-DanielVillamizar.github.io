@@ -1,5 +1,5 @@
 ---
-title: Online Hosted Instructions
+title: Instrucciones alojadas en línea
 permalink: index.html
 layout: home
 ---
