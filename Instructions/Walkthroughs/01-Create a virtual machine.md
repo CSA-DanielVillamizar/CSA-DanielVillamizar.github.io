@@ -73,7 +73,7 @@ En esta tarea, nos conectaremos a nuestra nueva máquina virtual mediante RDP.
 
 2. En la página de **Información general** de su máquina virtual, haga clic en el botón **Conectar** y elija **RDP**..
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/0101.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/Conectar-VM-RDP.png)
 
     **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
