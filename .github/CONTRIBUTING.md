@@ -13,6 +13,6 @@ También cubrirá algunos servicios y soluciones centrales de Azure, así como s
 
 
 En el curso hay 23 tutoriales. La siguiente lista muestra dónde ocurren dentro del curso y proporciona una breve descripción de cada uno.[Una lista completa de los tutoriales
-que contienen pasos detallados  (https://csa-danielvillamizar.github.io)](https://csa-danielvillamizar.github.io/) está disponible en GitHub. La plataforma Azure cambia continuamente y, a medida que se producen cambios, los pasos del tutorial en GitHub se actualizan para mantener la precisión y permanecer sincronizados con Azure. 
+que contienen pasos detallados  (https://csa-danielvillamizar.github.io)] está disponible en GitHub. La plataforma Azure cambia continuamente y, a medida que se producen cambios, los pasos del tutorial en GitHub se actualizan para mantener la precisión y permanecer sincronizados con Azure. 
 
 
