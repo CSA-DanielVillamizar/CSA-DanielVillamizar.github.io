@@ -80,30 +80,30 @@ Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la en
 | |
 | **Módulo 2: Servicios principales de Azure**   | | | ||
 | Lección 1: Objetivos de aprendizaje  | | | | |
-| Lección 2: Componentes principales de arquitectura de Azure   |**25**|   |**25**|**0,42**|
-| Lección 3: Servicios y productos principales de Azure    |**25**|   |**25**|**0,42**|
-| Lección 4: Soluciones de Azure     |**25**|   |**25**|**0,42**|
-| Lección 5: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
-|        **Módulo 2: Totales**      |**25**|   |**25**|**0,42**|
+| Lección 2: Componentes principales de arquitectura de Azure   |**40**|   |**40**|**0,67**|
+| Lección 3: Servicios y productos principales de Azure    |**40**| **100**  |**140**|**2,33**|
+| Lección 4: Soluciones de Azure     |**30**|  **55** |**85**|**1,42**|
+| Lección 5: Herramientas de administración de Azure     |**10**|**60**   |**70**|**1,17**|
+|        **Módulo 2: Totales**      |**120**|**215** |**345**|**5,75**|
 | |
 | **Módulo  3: Seguridad, privacidacumplimiento y confianza**   | | | ||
 | Lección 1: Objetivos de aprendizaje  | | | | |
-| Lección 2: Lección 2: Asegurar la conectividad de red   |**25**|   |**25**|**0,42**|
-| Lección 3: Servicios principales de identidad de Azure     |**25**|   |**25**|**0,42**|
-| Lección 4: Herramientas y características de seguridad     |**25**|   |**25**|**0,42**|
-| Lección 5: Metodologías de Gobernanza en Azure      |**25**|   |**25**|**0,42**|
-| Lección 6: Supervisión e informes    |**25**|   |**25**|**0,42**|
-| Lección 7: Privacidad, cumplimiento y estándares de protección de datos.     |**25**|   |**25**|**0,42**|
-|        **Módulo 3: Totales**      |**25**|   |**25**|**0,42**|
+| Lección 2: Lección 2: Asegurar la conectividad de red   |**40**| **20**  |**60**|**1,002**|
+| Lección 3: Servicios principales de identidad de Azure     |**15**|   |**15**|**0,25**|
+| Lección 4: Herramientas y características de seguridad     |**25**| **20**  |**45**|**0,75**|
+| Lección 5: Metodologías de Gobernanza en Azure      |**35**| **60**  |**95**|**1,58**|
+| Lección 6: Supervisión e informes    |**20**| **20** |**40**|**0,67**|
+| Lección 7: Privacidad, cumplimiento y estándares de protección de datos.     |**35**|**20**   |**55**|**0,92**|
+|        **Módulo 3: Totales**      |**120**|**215** |**345**|**5,75**|
 | |
 | **Módulo 4: Precios y soporte técnico de Azure**   | | | ||
 | Lección 1: Objetivos de aprendizaje  | | | | |
-| Lección 2: Suscripciones de Azure    |**25**|   |**25**|**0,42**|
-| Lección 3: Planificación y administración de costes    |**25**|   |**25**|**0,42**|
-| Lección 4: Opciones de soporte técnico de Azure      |**25**|   |**25**|**0,42**|
-| Lección 5: Acuerdos de nivel de servicio Azure (SLA)      |**25**|   |**25**|**0,42**|
-| Lección 6: Ciclo de vida del servicio en Azure     |**25**|   |**25**|**0,42**|
-|        **Módulo 4: Totales**      |**25**|   |**25**|**0,42**|
+| Lección 2: Suscripciones de Azure    |**20**| **0** |**20**|**0,33**|
+| Lección 3: Planificación y administración de costes   |**35**| **40** |**75**|**1,25**|
+| Lección 4: Opciones de soporte técnico de Azure      |**15**| **20** |**35**|**0,58**|
+| Lección 5: Acuerdos de nivel de servicio Azure (SLA)      |**20**| **20**  |**40**|**0,67**|
+| Lección 6: Ciclo de vida del servicio en Azure     |**25**|  **20** |**45**|**0,75**|
+|        **Módulo 4: Totales**      |**115*| **100**  |**225**|**3,75**|
 | |
 | | **Minutos**|**Horas**|
 | **Tiempo total de lectura del curso** |475 |7,92|
