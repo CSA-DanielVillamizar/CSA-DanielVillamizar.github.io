@@ -67,7 +67,7 @@ que contienen pasos detallados)](https://csa-danielvillamizar.github.io/) está 
 
 ## Tiempos detallados del curso 
 
-Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la entrega de su curso.  
+Los valores en esta tabla son aproximaciones que ayudarán a planificar la entrega del curso.  
 
 | | Duración de los temas (minutos) | Duración de los tutoriales (minutos) |Tiempo total de la lección (minutos) | Tiempo total de lalección (horas) |
 |  -- | -- | -- | -- | -- |
