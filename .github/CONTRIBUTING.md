@@ -13,24 +13,24 @@ También cubrirá algunos servicios y soluciones centrales de Azure, así como s
 
 Al completar este curso, los alumnos serán capaces de:
 
-• Describir los servicios en la nube y sus beneficios.
-• Reconocer los términos clave que encontrarán cuando trabajen con servicios en la nube.
-• Entender los modelos de nubes públicas, privadas e híbridas.
-• Describir la infraestructura como servicio (IaaS), la plataforma como servicio (PaaS) y el software como servicio (SaaS).
-• Identificación de los principales componentes, servicios y productos arquitectónicos de Azure.
-• Describir soluciones de Azure.  
-• Describir las herramientas de administración de Azure.
-• Explicar cómo asegurar la conectividad de red en Microsoft Azure.
-• Describir los principales servicios de identidad de Azure.
-• Describir las herramientas y características de seguridad.
-• Describir las metodologías de gobernanza en Azure.
-• Describir la supervisión y los informes en Azure.
-• Describir los estándares de privacidad, cumplimiento y protección de datos en Azure.
-• Descripción de las suscripciones de Microsoft Azure y los grupos de administración.
-• Reconocer formas de planificar y administrar los costes de Azure.
-• Identificar las opciones de soporte técnico de Azure.
-• Comprender y describir las características de los acuerdos de nivel de servicio (SLA)de Azure.
-• Explicar el ciclo de vida del servicio en Azure. 
+- Describir los servicios en la nube y sus beneficios.
+- Reconocer los términos clave que encontrarán cuando trabajen con servicios en la nube.
+- Entender los modelos de nubes públicas, privadas e híbridas.
+- Describir la infraestructura como servicio (IaaS), la plataforma como servicio (PaaS) y el software como servicio (SaaS).
+- Identificación de los principales componentes, servicios y productos arquitectónicos de Azure.
+- Describir soluciones de Azure.  
+- Describir las herramientas de administración de Azure.
+- Explicar cómo asegurar la conectividad de red en Microsoft Azure.
+- Describir los principales servicios de identidad de Azure.
+- Describir las herramientas y características de seguridad.
+- Describir las metodologías de gobernanza en Azure.
+- Describir la supervisión y los informes en Azure.
+- Describir los estándares de privacidad, cumplimiento y protección de datos en Azure.
+- Descripción de las suscripciones de Microsoft Azure y los grupos de administración.
+- Reconocer formas de planificar y administrar los costes de Azure.
+- Identificar las opciones de soporte técnico de Azure.
+- Comprender y describir las características de los acuerdos de nivel de servicio (SLA)de Azure.
+- Explicar el ciclo de vida del servicio en Azure. 
 
 ## Relación de examen 
 Este curso está directamente asignado y apoya el aprendizaje para el examen AZ-900 Microsoft Azure Fundamentals.  
@@ -54,10 +54,9 @@ sería beneficioso tener ciertas nociones generales acerca de informática y de 
 
 Cada módulo contiene algunos o todos los elementos siguientes:
 
-• Temas: Contenido de estilo educativo basado en texto.
-• Tutoriales: Actividades prácticas que ofrecen orientación paso a paso para completar una tarea en particular en Azure.
-• Preguntas de revisión del módulo: Preguntas para reforzar el aprendizaje y revisar los principales objetivos de aprendizaje cubiertos en el módulo. Se encuentran al
-final de cada módulo.
+- Temas: Contenido de estilo educativo basado en texto.
+- Tutoriales: Actividades prácticas que ofrecen orientación paso a paso para completar una tarea en particular en Azure.
+- Revisión del módulo: revisar los principales objetivos de aprendizaje cubiertos en el módulo. Se encuentran al final de cada módulo.
 
 ## Tutoriales de esquemas detallados. 
 
