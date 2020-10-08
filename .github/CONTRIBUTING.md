@@ -106,3 +106,6 @@ Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la en
 |        **Módulo 4: Totales**      |**25**|   |**25**|**0,42**|
 | |
 | | **Minutos**|**Horas**|
+| **Tiempo total de lectura del curso** |475 |7,92|
+| **Tiempo total del tutorial del curso**|475 |7,58|
+|**Totales del curso** |970 |16,17|
