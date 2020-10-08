@@ -1,6 +1,6 @@
 # Descripción del curso 
 
-El curso AZ-900T00 Conceptos básicos de Azure proporcionará un conocimiento de nivel básico de los servicios en la nube y cómo se dan esos servicios con Microsoft
+El curso AZ-900: Conceptos básicos de Azure proporcionará un conocimiento de nivel básico de los servicios en la nube y cómo se dan esos servicios con Microsoft
 Azure. El curso se puede tomar como un primer paso opcional para aprender sobre los servicios en la nube y Microsoft Azure, antes de tomar más cursos de servicios en la
 nube de Microsoft Azure o Microsoft. 
 
