@@ -85,4 +85,25 @@ Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la en
 | Lección 4: Soluciones de Azure     |**25**|   |**25**|**0,42**|
 | Lección 5: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
 |        **Módulo 2: Totales**      |**25**|   |**25**|**0,42**|
-| | | | |
+| |
+| **Módulo 3: Servicios principales de Azure**   | | | ||
+| Lección 1: Objetivos de aprendizaje  | | | | |
+| Lección 2: Componentes principales de arquitectura de Azure   |**25**|   |**25**|**0,42**|
+| Lección 3: Servicios y productos principales de Azure    |**25**|   |**25**|**0,42**|
+| Lección 4: Soluciones de Azure     |**25**|   |**25**|**0,42**|
+| Lección 5: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
+| Lección 6: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
+| Lección 7: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
+|        **Módulo 3: Totales**      |**25**|   |**25**|**0,42**|
+| |
+| **Módulo 4: Servicios principales de Azure**   | | | ||
+| Lección 1: Objetivos de aprendizaje  | | | | |
+| Lección 2: Componentes principales de arquitectura de Azure   |**25**|   |**25**|**0,42**|
+| Lección 3: Servicios y productos principales de Azure    |**25**|   |**25**|**0,42**|
+| Lección 4: Soluciones de Azure     |**25**|   |**25**|**0,42**|
+| Lección 5: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
+| Lección 6: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
+| Lección 7: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
+|        **Módulo 4: Totales**      |**25**|   |**25**|**0,42**|
+| |
+| | |
