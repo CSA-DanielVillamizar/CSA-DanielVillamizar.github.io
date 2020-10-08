@@ -22,14 +22,18 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Configuración | Valores |
     |  -- | -- |
     | Suscripción | **Elige tu suscripción**|
-    | Grupo de recursos | **CREHANA-RG-VM** (create new) |
+    | Grupo de recursos | **CREHANA-RG-VM** (Crear nuevo) |
     | Nombre de la máquina virtual | **SRV-APP-01** |
+    | Opciones de disponibilidad | No se requiere redundancia de la infraestructura |
+    | Instancia de Azure Spot o acceso puntual| **No** |
     | Región | **(US) Este de EE.UU**|
     | Imagen | **Windows Server 2019 Datacenter - Gen1**|
     | Tamaño | Standard_D2s_v4|
     | Nombre de usuario de la cuenta de administrador | **Administrador** |
     | Contraseña de la cuenta de administrador | **Cr3h4n42020**|
-    | Reglas de puertos de entrada- Permitir puertos selectos | **RDP (3389)** and **HTTP (80)**|
+    | Confirmar contraseña de la cuenta de administrador | **Cr3h4n42020.**|
+    | Reglas de puertos de entrada- Seleccionar permitir los puertos seleccionados | **RDP (3389)** and **HTTP (80)**|
+    | Licencias | Seleccionar **No**|
     | | |
 
 4. Switch to the Networking tab, and look for the **Select inbound ports**:
