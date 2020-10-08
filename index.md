@@ -8,7 +8,7 @@ layout: home
 
 Hyperlinks to each of the walkthroughs. Instructors may choose to use the walkthrough as a demonstration or a student lab. 
 
-## Walkthroughs
+## Tutoriales
 
 {% assign wts = site.pages | where_exp:"page", "page.url contains '/Instructions/Walkthroughs'" %}
 | Module | Walkthrough |
