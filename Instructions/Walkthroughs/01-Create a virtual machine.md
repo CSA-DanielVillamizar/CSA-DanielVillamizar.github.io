@@ -13,7 +13,7 @@ En este tutorial, crearemos una máquina virtual en Azure Portal, conectaremos a
 
 En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - Gen1. 
 
-1. Inicie sesión en el[Portal de Azure (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
+1. Inicie sesión en el [Portal de Azure (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
 
 2. En la hoja **Todos los servicios**, busque y seleccione **Máquinas virtuales** y, a continuación, haga clic en **+ Agregar** y elija **+Máquina virtual**.
 
