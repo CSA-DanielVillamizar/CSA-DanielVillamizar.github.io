@@ -105,4 +105,4 @@ Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la en
 | Lección 6: Ciclo de vida del servicio en Azure     |**25**|   |**25**|**0,42**|
 |        **Módulo 4: Totales**      |**25**|   |**25**|**0,42**|
 | |
-| | |
+| | **Minutos**|**Horas**|
