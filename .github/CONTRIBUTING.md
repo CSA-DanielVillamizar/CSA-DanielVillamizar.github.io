@@ -76,7 +76,7 @@ Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la en
 | Lección 2: ¿Por qué Cloud Services?   |**25**|   |**25**|**0,42**|
 | Lección 3: Tipos de modelos en la nube  |**20** | |**20**|**0,33**|
 | Lección 4: Tipos de Cloud Services   |**25** |  |**25**|**0,42**|
-| Lección 2: ¿Por qué Cloud Services?   |**25** |  |**25**|**0,42**|
-| Lección 2: ¿Por qué Cloud Services?   |**25** |  |**25**|**0,42**|
+|        **Módulo 1: Totales**|**70** |**0**  |**80**|**1,33**|
+| |
 
 | | | | |
