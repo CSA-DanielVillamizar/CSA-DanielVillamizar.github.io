@@ -70,7 +70,7 @@ que contienen pasos detallados)](https://csa-danielvillamizar.github.io/) está 
 Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la entrega de su curso.  
 
 | | Duración de los temas (minutos) | Duración de los tutoriales (minutos) |Tiempo total de la lección (minutos) | Tiempo total de lalección (horas) |
-|  -- | -- | -- | -- | -- |-- |
+|  -- | -- | -- | -- | -- |
 | **Módulo 1: Conceptos de nube**   | | | ||
 | Lección 1: Objetivos de aprendizaje  | | | | |
 | Lección 2: ¿Por qué Cloud Services?   |**25**|   |**25**|**0,42**|
