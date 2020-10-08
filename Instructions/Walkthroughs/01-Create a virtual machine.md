@@ -47,7 +47,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
 
     | Configuración | Valores |
     | -- | -- |
-    | Diagnósticos de arranque | **Habilitar con la cuenta de almacenamiento administrada (recomendado)*|
+    | Diagnósticos de arranque | *Habilitar con la cuenta de almacenamiento administrada (recomendado)*|
     | | |
 
 6. Cambie a la pestaña Etiquetas, y realice la siguiente configuración:
@@ -57,7 +57,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | FronEnd-Server | Producción | 12 seleccionados |
     | | | |
 
-**Nota**: Deje los valores restantes como predeterminados y, a continuación, haga clic en el botón **Revisar y crear** en la parte inferior de la página.
+ **Nota**: Deje los valores restantes como predeterminados y, a continuación, haga clic en el botón **Revisar y crear** en la parte inferior de la página.
 
 7. Una vez que se pasa la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede tardar entre cinco y siete minutos.
 
