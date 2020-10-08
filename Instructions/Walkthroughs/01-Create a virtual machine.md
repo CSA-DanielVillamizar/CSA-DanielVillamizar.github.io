@@ -107,7 +107,7 @@ En esta tarea, instale el rol de servidor web en el servidor implementado anteri
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
   
-3. Cuando se completela instrucción anterior, habrá un mensaje que indica **Success** con un valor **True** indicando que la caractristica de **Web Server** ha sido instlada con éxito. No es necesario reiniciar la máquina virtual para completar la instalación. Puede cerrar la conexión RDP de la máquina virtual.
+3. Cuando se completela instrucción anterior, habrá un mensaje que indica **Success** con un valor **True** indicando que la característica de **Web Server** ha sido instalada con éxito. No es necesario reiniciar la máquina virtual para completar la instalación. Si desea puede cerrar la conexión RDP de la máquina virtual.
 
     ![Screenshot of the windows PowerShell command prompt with the command Install-WindowsFeature -name Web-Server -IncludeManagementTools successfully completed and output stating it was successful.](../images/Install-IIS.png)
 
