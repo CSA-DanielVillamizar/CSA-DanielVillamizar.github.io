@@ -78,5 +78,11 @@ Los valores en esta tabla son aproximaciones que lo ayudarán a planificar la en
 | Lección 4: Tipos de Cloud Services   |**25** |  |**25**|**0,42**|
 |        **Módulo 1: Totales**|**70** |**0**  |**80**|**1,33**|
 | |
-
+| **Módulo 2: Servicios principales de Azure**   | | | ||
+| Lección 1: Objetivos de aprendizaje  | | | | |
+| Lección 2: Componentes principales de arquitectura de Azure   |**25**|   |**25**|**0,42**|
+| Lección 3: Servicios y productos principales de Azure    |**25**|   |**25**|**0,42**|
+| Lección 4: Soluciones de Azure     |**25**|   |**25**|**0,42**|
+| Lección 5: Herramientas de administración de Azure     |**25**|   |**25**|**0,42**|
+|        **Módulo 2: Totales**      |**25**|   |**25**|**0,42**|
 | | | | |
