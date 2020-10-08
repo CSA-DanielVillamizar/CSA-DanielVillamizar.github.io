@@ -25,7 +25,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Grupo de recursos | **CREHANA-RG-VM** (Crear nuevo) |
     | Nombre de la máquina virtual | **SRV-APP-01** |
     | Opciones de disponibilidad | No se requiere redundancia de la infraestructura |
-    | Instancia de Azure Spot o acceso puntual| **No** |
+    | Instancia de Azure Spot o acceso puntual| Seleccionar **No** |
     | Región | **(US) Este de EE.UU**|
     | Imagen | **Windows Server 2019 Datacenter - Gen1**|
     | Tamaño | Standard_D2s_v4|
@@ -36,35 +36,35 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Licencias | Seleccionar **No**|
     | | |
 
-4. Switch to the Networking tab, and look for the **Select inbound ports**:
+4. Cambie a la pestaña Redes, y busque **Seleccionar puertos de entrada (Inboud)*:
 
-    | Settings | Values |
+    | Configuración | Valores |
     | -- | -- |
-    | Select inbound ports | **HTTP (80), RDP (3389)**|
+    | Seleccionar puertos de entrada (Inboud) | **HTTP (80), RDP (3389)**|
     | | |
 
-5. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
+5. Cambie a la pestaña Administración, y en la sección **Supervisión**, seleccione la siguiente configuración:
 
-    | Settings | Values |
+    | Configuración | Valores |
     | -- | -- |
-    | Boot diagnostics | **Disable**|
+    | Diagnósticos de arranque | **Habilitar con la cuenta de almacenamiento administrada (recomendado)*|
     | | |
 
-6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+6. Deje los valores predeterminados restantes y, a continuación, haga clic en el botón **Revisar y crear** en la parte inferior de la página.
 
-7. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+7. Una vez que se pasa la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede tardar entre cinco y siete minutos.
 
-8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
+8. Recibirá actualizaciones de la implementación de cada uno de los recursos subayacentes en la página de implementación y a través del área **Notificaciones** (el icono de campana ubicado en el costado derecho del menú superior).
 
-# Task 2: Connect to the virtual machine
+# Tarea 2: Conéctese a la máquina virtual
 
-In this task, we will connect to our new virtual machine using RDP. 
+En esta tarea, nos conectaremos a nuestra nueva máquina virtual mediante RDP.
 
-1. Search for **myVM** and select your new virtual machine.
+1. Dírijase al área de búsqueda uBicada en la parte superior del portal de Azure y seleccione la nueva máquina virtual **SRV-APP-01** .
 
-    **Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
+    **Nota**: También puede usar el vínculo **Ir aL recurso** en la página de implementación o a través del área de **Notificaciones**.
 
-2. On the virtual machine **Overview** blade, click the **Connect** button and choose **RDP**.
+2. En la página de **Información general** de su máquina virtual, haga clic en el botón **Conectar** y elija **RDP**..
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/0101.png)
 
