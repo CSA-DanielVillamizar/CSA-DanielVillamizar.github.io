@@ -1,23 +1,23 @@
 ---
 wts:
-    title: '01 - Crear una máquina virtual en el portal'
-    módulo: 'Módulo 02 - Core Azure Services'
+    Título: '01 - Crear una máquina virtual en el portal'
+    Módulo: 'Módulo 02 - Servicios principales de Azure'
 ---
-# 01 - Create a virtual machine in the portal
+# 01 - Crear una máquina virtual en el portal
 
 En este tutorial, crearemos una máquina virtual en Azure Portal, conectaremos a la máquina virtual, instalaremos el rol de servidor web y probaremos.
 
 **Nota**: Tómese el tiempo durante este paso para hacer clic y leer los iconos informativos.
 
-# Task 1: Create the virtual machine
+# Tarea 1: Crear la máquina virtual
 
-In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual machine. 
+En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - Gen1. 
 
-1. Sign in to the [Azure portal (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
+1. Inicie sesión en el[Portal de Azure (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
 
-2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add** and choose **+Virtual machine**.
+2. En la hoja **Todos los servicios**, busque y seleccione **Máquinas virtuales** y, a continuación, haga clic en **+ Agregar** y elija **+Máquina virtual**.
 
-3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
+3. En la pestaña **Básicos**, rellene la siguiente información (deje los valores predeterminados para todo lo demás):
 
     | Settings | Values |
     |  -- | -- |
