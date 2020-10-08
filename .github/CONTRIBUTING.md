@@ -40,10 +40,10 @@ preguntas en esa área.
 
 | Áreas de estudio | Pesos |
 |  -- | -- |
-| Comprender los conceptos de la nube  | ** 15-20 % **|
-| Comprender los servicios principales de Azure | ** 30-35 % **|
-| Comprender seguridad, privacidad, cumplimiento y confianza | ** 25-30 % **|
-| Comprender los precios y el soporte técnico de Azure | ** 25-30 %  **|
+| Comprender los conceptos de la nube  | **15-20 %**|
+| Comprender los servicios principales de Azure | **30-35 %**|
+| Comprender seguridad, privacidad, cumplimiento y confianza | **25-30 %**|
+| Comprender los precios y el soporte técnico de Azure | **25-30 %**|
 | | |
 
 ## Público 
