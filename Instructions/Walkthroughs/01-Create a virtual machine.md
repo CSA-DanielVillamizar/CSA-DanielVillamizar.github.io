@@ -21,7 +21,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
 
     | Configuración | Valores |
     |  -- | -- |
-    | Suscripción | **Elige tu suscripción**|
+    | Suscripción | **Elige tú suscripción**|
     | Grupo de recursos | **CREHANA-RG-VM** (Crear nuevo) |
     | Nombre de la máquina virtual | **SRV-APP-01** |
     | Opciones de disponibilidad | No se requiere redundancia de la infraestructura |
@@ -30,13 +30,13 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Imagen | **Windows Server 2019 Datacenter - Gen1**|
     | Tamaño | Standard_D2s_v4|
     | Nombre de usuario de la cuenta de administrador | **Administrador** |
-    | Contraseña de la cuenta de administrador | **Cr3h4n42020**|
+    | Contraseña de la cuenta de administrador | **Cr3h4n42020.**|
     | Confirmar contraseña de la cuenta de administrador | **Cr3h4n42020.**|
     | Reglas de puertos de entrada- Seleccionar permitir los puertos seleccionados | **RDP (3389)** and **HTTP (80)**|
     | Licencias | Seleccionar **No**|
     | | |
 
-4. Cambie a la pestaña Redes, y busque **Seleccionar puertos de entrada (Inboud)*:
+4. Cambie a la pestaña Redes, y busque **Seleccionar puertos de entrada (Inbound)*:
 
     | Configuración | Valores |
     | -- | -- |
@@ -50,7 +50,14 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Diagnósticos de arranque | **Habilitar con la cuenta de almacenamiento administrada (recomendado)*|
     | | |
 
-6. Deje los valores predeterminados restantes y, a continuación, haga clic en el botón **Revisar y crear** en la parte inferior de la página.
+6. Cambie a la pestaña Etiquetas, y realice la siguiente configuración:
+
+    | Nombre | Valor | Recurso |
+    | -- | -- | -- |
+    | FronEnd-Server | Producción | 12 seleccionados |
+    | | | |
+
+**Nota**: Deje los valores restantes como predeterminados y, a continuación, haga clic en el botón **Revisar y crear** en la parte inferior de la página.
 
 7. Una vez que se pasa la validación, haga clic en el botón **Crear**. La implementación de la máquina virtual puede tardar entre cinco y siete minutos.
 
