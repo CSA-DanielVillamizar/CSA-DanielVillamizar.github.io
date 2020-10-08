@@ -36,7 +36,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
     | Licencias | Seleccionar **No**|
     | | |
 
-4. Cambie a la pestaña Redes, y busque **Seleccionar puertos de entrada (Inbound)*:
+4. Cambie a la pestaña Redes, y busque **Seleccionar puertos de entrada (Inbound)**:
 
     | Configuración | Valores |
     | -- | -- |
