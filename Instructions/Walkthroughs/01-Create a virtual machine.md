@@ -40,7 +40,7 @@ En esta tarea, crearemos una máquina virtual Windows Server 2019 Datacenter - G
 
     | Configuración | Valores |
     | -- | -- |
-    | Seleccionar puertos de entrada (Inboud) | **HTTP (80), RDP (3389)**|
+    | Seleccionar puertos de entrada | **HTTP (80), RDP (3389)**|
     | | |
 
 5. Cambie a la pestaña Administración, y en la sección **Supervisión**, seleccione la siguiente configuración:
@@ -75,51 +75,51 @@ En esta tarea, nos conectaremos a nuestra nueva máquina virtual mediante RDP.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/Conectar-VM-RDP.png)
 
-    **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+    **Nota**: Las siguientes instrucciones le indican cómo conectarse a la máquina virtual desde un equipo Windows. En un equipo Mac, necesita un cliente de escritorio remoto o RDP el cual puede adquirirse desde Mac App Store y en un equipo Linux puede usar un cliente RDP de código abierto.
 
-2. In the **Connect to virtual machine** page, keep the default options to connect with the public IP address over port 3389 and click **Download RDP File**.
+2. En la pestaña **Conectae a la máquina virtual**, mantenga las opciones predeterminadas para conectarse con la dirección IP pública a través del puerto 3389 y haga clic en **Descargar archivo RDP**.
 
-3. **Open** the downloaded RDP file and click **Connect** when prompted. 
+3. **Abra** el archivo RDP descargado y haga clic en **Conectar** cuando se le solicite.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/Archivo-RDP.png)
 
-4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (.\azureuser) and the password (Pa$$w0rd1234). Click **OK** to connect.
+4. En la ventana Seguridad de Windows, seleccione **Más opciones** y, a continuación seleccione, **Usar una cuenta diferente**. Proporcione el nombre de usuario (**.\Administrador**) y la contraseña (**Cr3h4n42020.**). Haga clic en **Aceptar** para conectarse.
 
-    ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/0103.png)
+    ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/Credenciales-VM-RDP.png)
 
-5. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+5. Puede recibir una advertencia de certificado durante el proceso de inicio de sesión. Haga clic en **Sí** para crear la conexión y conectarse a la máquina virtual implementada. Una vez realizado esto, debería conectarse correctamente.
 
-    ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
+    ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/Certificado-RDP.png)
 
-Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure
+¡Felicitaciones! Usted ha implementado y se ha conectado a una máquina virtual de Windows Server alojada en los datacenter de Microsoft Azure
 
-# Task 3: Install the web server role and test
+# Tarea 3: Instale el rol de servidor web y verifique 
 
-In this task, install the Web Server role on the server and ensure the default IIS welcome page can be displayed.
+En esta tarea, instale el rol de servidor web en el servidor implementado anteriormente y asegúrese de que se puede mostrar la página de bienvenida predeterminada de Internet Information Services (IIS) .
 
-1. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
+1. Abra un símbolo del sistema de PowerShell en la máquina virtual, haciendo clic en el botón Inicio, escribiendo **PowerShell**, haciendo clic con el botón derecho en **Windows PowerShell** y seleccionando **Ejecutar como administrador** en el menú contextual.
 
-    ![Screenshot of the virtual machine desktop with the start button clicked and PowerShell selected with run as an administrator highlighted.](../images/0105.png)
+    ![Screenshot of the virtual machine desktop with the start button clicked and PowerShell selected with run as an administrator highlighted.](../images/PowerShell-Busqueda.png)
 
-2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command.
+2. Instale la característica **Servidor web** en la máquina virtual ejecutando el siguiente comando en el símbolo del sistema de PowerShell. Puede copiar y pegar este comando.
 
     ```PowerShell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
   
-3. When completed there will be a prompt stating **Success** with a value **True**. You do not need to restart the virtual machine to complete the installation. Close the RDP connection to the VM.
+3. Cuando se completela instrucción anterior, habrá un mensaje que indica **Success** con un valor **True** indicando que la caractristica de **Web Server** ha sido instlada con éxito. No es necesario reiniciar la máquina virtual para completar la instalación. Puede cerrar la conexión RDP de la máquina virtual.
 
-    ![Screenshot of the windows PowerShell command prompt with the command Install-WindowsFeature -name Web-Server -IncludeManagementTools successfully completed and output stating it was successful.](../images/0106.png)
+    ![Screenshot of the windows PowerShell command prompt with the command Install-WindowsFeature -name Web-Server -IncludeManagementTools successfully completed and output stating it was successful.](../images/Install-IIS.png)
 
-4. Back in the portal, navigate back to the **Overview** blade of myVM and, use the **Click to clipboard** button to copy the public IP address of myVM, open a new browser tab, paste the public IP address into the URL text box, and press the **Enter** key to browse to it.
+4. De vuelta en el portal de Azure, vuelva a la sección **Información general** de SRV-APP-01 y, utilice el botón **copiar al portapapeles** para copiar la dirección IP pública de SRV-APP-01, abra una nueva pestaña del explorador, pegue la dirección IP pública en el cuadro de texto URL y presione la tecla **Enter** para proceder con la úsqueda.
 
-    ![Screenshot of the Azure portal virtual machine property pane with the IP address copied.](../images/0107.png)
+    ![Screenshot of the Azure portal virtual machine property pane with the IP address copied.](../images/IP-WebServer.png)
 
-5. The default IIS Web Server welcome page will open.
+5. Se abrirá la página de bienvenida predeterminada del servidor Web IIS.
 
-    ![Screenshot of the default IIS web server welcome page being accessed via the public ip address in a web browser.](../images/0108.png)
+    ![Screenshot of the default IIS web server welcome page being accessed via the public ip address in a web browser.](../images/Servicio-Web.png)
 
-Congratulations! You have created a web server that is accessible via its public IP address. If you had a web application to host, you could deploy application files to the virtual machine and host them for public access on the deployed virtual machine.
+¡Felicitaciones! Ha creado un servidor web al que se puede acceder a través de internet con su dirección IP pública. Si tiene una aplicación web para hospedar, podría implementar los archivos de la aplicación en esta máquina virtual y de esta manera permitir su acceso a través de internet.
 
 
-**Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see verify that the deletion completed successfully. 
+**Nota**: Para evitar costos adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en el grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos **CREHANA-RG-VM** y, a continuación, haga clic en **Eliminar**. Supervise las **notificaciones** para asegurarse que la eliminación se ha completado correctamente.
